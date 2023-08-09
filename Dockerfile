@@ -1,4 +1,4 @@
-FROM alpine AS base
+FROM alpine:3.18.3 AS base
 COPY . /
 
 FROM base AS build
